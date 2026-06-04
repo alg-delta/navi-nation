@@ -1,0 +1,157 @@
+body {
+	background-image: url(img/f.png);
+	background-size:1600px 800px;
+	background-repeat: no-repeat;
+}
+
+.menu {
+    padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex; /*ставить в рядок*/
+}
+
+.header {
+	display: flex;
+	align-items: center; /*центрує по висоті*/
+}
+
+.menu-btn {
+	display: block;
+	font-size: 24px;
+	color:pink;
+	padding-right: 40px;
+	padding-left: 45px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	text-decoration: none;
+	font-family: Verdana;
+}
+
+.menu-btn:hover {
+	color:Goldenrod;
+	transform: scale(1.3);
+}
+
+.logo {
+	margin-right:100px;
+}
+
+.active {
+	color:blue;
+	border-bottom: 2px solid blue
+}
+
+/* Початкова */
+
+.picture {
+	float: right;
+}
+
+.main {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70px;
+}
+
+.title {
+	color:aqua;
+	font-size: 50px;
+	font-family:"Comic Sans MS";
+}
+
+.navi {
+    color: maroon;
+    font-size: 60px;
+    font-family:Impact;
+}	
+.profi {
+	width:140px;
+	height:60px;
+	font-family:Lucida Console;
+	border-radius:6px;
+	background-color:skyblue;
+	border:4px solid navy;
+}
+.profi a {
+	text-decoration:none;
+	color:pink;
+}
+.profi:hover {
+	border: 4px dotted aqua;
+	background-color: indigo;
+}
+
+.fsda {
+	text-align: center;
+}
+
+.list{
+	list-style:none;
+}
+
+.by {
+	transition: all 0.5s;
+}
+
+.by:hover {
+	transform: rotate(10turn);
+}
+
+table {
+	background-color: Lavender;
+	font-size: 45px;
+}
+
+.mu {
+	color:gold;
+	box-shadow:5px 5px 10px moccasin;
+	opacity:50%;
+	text-shadow: 8px 8px 10px dodgerblue;
+}
+.tu {
+	color:sandybrown;
+	background-color:lightcyan;
+	opacity:45%;
+	box-shadow: 10px 10px 15px orangered;
+	text-shadow: 10px 10px 12px cornflowerblue;
+}
+.bu {
+	color:orange;
+	background-color:goldenroad;
+	opacity:40%;
+	box-shadow: 15px 15px 20px khaki;
+	text-shadow: 12px 12px 14px aqua;
+}
+
+.mo {
+	color:crimson;
+	box-shadow:9px 9px 11px orange;
+	text-shadow:5px 5px 7px gold;
+}
+.bea {
+	color: lemonchiffon;
+	box-shadow:11px 11px 13px tan;
+	text-shadow:7px 7px 9px indianred;
+}
+.bo {
+	color: midnightblue;
+	box-shadow:13px 13px 15px cyan;
+	text-shadow:9px 9px 11px mediumstateblue;	
+}
+
+.DaNavi {
+	color:aqua;
+}
+.neaNavi {
+	color:Khaki;
+}
+.EloxorPikmi{
+    color:CadetBlue;
+}
+
+.yyyf {
+	color:red;
+	font-size:50px;
+}
